@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1d1e22;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f6f8fa;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* 헤더 */
+
+header {
+  padding-top: 15px;
+}
+
+header h1 {
+  font-size: 170%;
+  font-weight: bold;
+  padding-bottom: 2px;
+}
+
+header p {
+  font-size: 85%;
+}
+
+/* 블로그 네비게이션 */
+
+.blog-nav ul {
+  padding-top: 15px;
+  display: flex;
+}
+
+.blog-nav li {
+  list-style-type: none;
+  margin-right: 20px;
+  background-color: #24292f;
+  padding: 8px 15px;
+}
+
+.blog-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 90%;
+}
+
+.content-area {
+  border-top: 2px solid #24292f;
+  border-bottom: 2px solid #24292f;
+}
+
+.main-area {
+  width: 66%;
+  float: left;
+  box-sizing: border-box;
+  font-size: 85%;
+  padding: 10px;
+}
+
+.sidebar {
+  width: 34%;
+  float: left;
+  box-sizing: border-box;
+  font-size: 85%;
+  padding: 10px;
+}
+
+footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+footer p {
+  text-align: center;
+}
+
+/* 클리어 픽스 */
+
+.group:before, 
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+.group {
+  zoom: 1;
+}
+
